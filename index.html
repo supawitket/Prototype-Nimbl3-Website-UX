@@ -1,0 +1,264 @@
+<html>
+<head>
+	<title>Nimbl3</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="jquery-1.10.2.js"></script>
+	<script src="typed.js"></script>
+</head>
+<body>
+	<script>
+	  $(function(){
+	      $(".headline").typed({
+	        strings: ["We build beautiful apps<br>with strong cores"],
+	        typeSpeed: 30
+	      });
+	  });
+
+
+		$(window).bind('scroll', function () {
+		    if ($(window).scrollTop() > 500) {
+		        $('.top_bar').addClass('top_bar_fixed');
+		    } else {
+		        $('.top_bar').removeClass('top_bar_fixed');
+		    }
+
+		    if ($(window).scrollTop() > 1100) {
+		        $('.review_head').addClass('review_show');
+		        $('.review_message').addClass('review_show');
+		        $('.browser').addClass('browser_show');
+		    } else {
+		        $('.browser').removeClass('browser_show');
+		        $('.review_head').removeClass('review_show');
+		        $('.review_message').removeClass('review_show');
+		    }
+
+
+		    if ($(window).scrollTop() > 1700) {
+		        $('.people').addClass('people_show');
+		    } else {
+		        $('.people').removeClass('people_show');
+		    }
+
+		    if ($(window).scrollTop() > 2700) {
+		    	$(".text").typed({
+			        strings: ["Supawit Ket-udom", "Your name here"],
+			        typeSpeed: 70
+			      });
+
+		        $('.contact_us_box').addClass('contact_us_show');
+		    } else {
+		        $('.contact_us_box').removeClass('contact_us_show');
+		    }
+
+		});
+
+	</script>
+
+	<div class="main_top">
+		<div class="content">
+			<div class="wrapper top_bar">
+				<a href="#" class="logo">
+					<img src="images/logo-white.png" border="0">
+				</a>
+
+				<div class="nav">
+					<a href="#">What we do</a>
+					<a href="#">Our work</a>
+					<a href="#">Team</a>
+					<a href="#">Contact us</a>
+					<a href="#" class="emp">We are hiring!</a>
+				</div>
+			</div>
+
+			<div class="headline typing">
+			</div>
+			<div class="start_yours">
+				<a href="#">Start Your Project</a>
+			</div>
+			<div class="main_content">
+				<div class="main_content_middle">
+					<div class="main_content_inside">
+						<div class="main_content_inside_code">
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<div class="block block_what_we_do">
+		<div class="content wrapper">
+			<div>
+				<div class="circular" style="background-image:url(images/what_we_do/1.png);">
+				</div>
+				<h2>MVP For Startups</h2>
+				Go fast from your idea to the launch of a solid and beautiful product to the market.
+			</div>
+			<div>
+				<div class="circular" style="background-image:url(images/what_we_do/2.png);">
+				</div>
+				<h2>Ruby On Rails</h2>
+				We have expertise in several verticals such as e-commerce and consumer facing products.
+			</div>
+			<div>
+				<div class="circular" style="background-image:url(images/what_we_do/3.png);">
+				</div>
+				<h2>Mobile Apps</h2>
+				Build your native mobile application that brings your product experience to the hands of your users.
+			</div>
+			<div>
+				<div class="circular" style="background-image:url(images/what_we_do/4.png);">
+				</div>
+				<h2>S.O.S.</h2>
+				Our expertise in building, scaling and securing have helped our clients to delight their users.
+			</div>
+		</div>
+	</div>
+	<div class="block block_our_work">
+		<div class="content wrapper">
+			<h1>Our work</h1>
+			<div class="description">
+				Some of our projects
+			</div>
+			<div class="left">
+				<h2 class="review_head">Red Planet Hotel</h2>
+				<div class="review review_message">
+					"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+				</div>
+			</div>
+			<div class="right">
+				<div class="browser">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="block block_team">
+		<div class="content wrapper">
+			<h1>Team</h1>
+			<div class="description">
+				Who made all these possible.
+			</div>
+			<div class="people_board">
+				<div class="people people1">
+					<div class="picture" style="background-image:url(images/people/1.jpg)">
+
+					</div>
+					<div class="info">
+						<div class="name">Carlos</div>
+						<div class="pos">Developer / Co Founder & CEO</div>
+					</div>
+				</div>
+
+				<div class="people">
+					<div class="picture" style="background-image:url(images/people/2.jpg)">
+
+					</div>
+					<div class="info">
+						<div class="name">Olivier</div>
+						<div class="pos">Developer / Co Founder & CTO</div>
+					</div>
+				</div>
+
+				<div class="people">
+					<div class="picture" style="background-image:url(images/people/3.jpg)">
+
+					</div>
+					<div class="info">
+						<div class="name">Fernando</div>
+						<div class="pos">Senior Developer</div>
+					</div>
+				</div>
+
+				<div class="people">
+					<div class="picture" style="background-image:url(images/people/4.jpg)">
+
+					</div>
+					<div class="info">
+						<div class="name">Sarun</div>
+						<div class="pos">Developer</div>
+					</div>
+				</div>
+
+				<div class="people">
+					<div class="picture" style="background-image:url(images/people/5.jpg)">
+
+					</div>
+					<div class="info">
+						<div class="name">Teerawat</div>
+						<div class="pos">Developer</div>
+					</div>
+				</div>
+
+				<div class="people">
+					<div class="picture" style="background-image:url(images/people/6.jpg)">
+
+					</div>
+					<div class="info">
+						<div class="name">Tanakrit</div>
+						<div class="pos">Developer</div>
+					</div>
+				</div>
+
+				<div class="people">
+					<div class="picture" style="background-image:url(images/people/7.jpg)">
+
+					</div>
+					<div class="info">
+						<div class="name">Aun</div>
+						<div class="pos">Developer</div>
+					</div>
+				</div>
+
+				<div class="people">
+					<div class="picture" style="background-image:url(images/people/8.jpg)">
+
+					</div>
+					<div class="info">
+						<div class="name">Nut</div>
+						<div class="pos">Developer</div>
+					</div>
+				</div>
+
+				<div class="people">
+					<div class="picture" style="background-image:url(images/people/9.jpg)">
+
+					</div>
+					<div class="info">
+						<div class="name">You?</div>
+						<div class="pos">We are hiring!</div>
+					</div>
+				</div>
+
+				<div class="more">
+					<a href="">Become a part of our team</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="block block_contact_us">
+		<div class="content wrapper contact_us_box">
+			<h1>Nimbl3 Office</h1>
+			<div class="description">
+				A: 25th Floor, Workington Tower, 78 Bonham Strand Sheung Wan, Hong Kong
+				<br>
+				<a href="mailto:hello@nimbl3.com">hello@nimbl3.com</a>
+			</div>
+			<div class="form">
+				<input type="text" value="Name" class="text">
+				<input type="text" value="Your email here">
+				<input type="text" value="Your company here">
+				<textarea>More details</textarea>
+				<input type="submit" class="submit" value="Send">
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<a href="#">Home</a>
+		<a href="#">What we do</a>
+		<a href="#">Our work</a>
+		<a href="#">Team</a>
+		<a href="#">Contact us</a>
+	</div>
+
+</body>
+</html>
